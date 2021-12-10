@@ -27,11 +27,8 @@ public class MainReader {
         File file = new File(fileUrl.getFile());
         String value = null;
 
-        try {
-            FileReader fileReader = new FileReader(file);
-            BufferedReader reader = new BufferedReader(fileReader);
+        try (FileReader fileReader = new FileReader(file);BufferedReader reader = new BufferedReader(fileReader)) {
             StringBuilder builder = new StringBuilder();
-
             while (reader.ready()) {
                 builder.append(reader.readLine());
                 builder.append("\n");
