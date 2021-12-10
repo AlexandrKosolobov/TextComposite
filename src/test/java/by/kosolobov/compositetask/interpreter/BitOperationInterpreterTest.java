@@ -17,6 +17,7 @@ class BitOperationInterpreterTest {
     Does it matter what is the 123|321 content of this file? No!
     Does it matter what is the 123&321 content of this file? No!
     Does it matter what is the 123^321 content of this file? No!
+    Does it matter what is the ~123 content of this file? No!
     Or? May that be a part of a big game? Kind of.
     """;
     private static final String EXPECTED = """
@@ -26,6 +27,7 @@ class BitOperationInterpreterTest {
     Does it matter what is the 379 content of this file? No!\s
     Does it matter what is the 65 content of this file? No!\s
     Does it matter what is the 314 content of this file? No!\s
+    Does it matter what is the -124 content of this file? No!\s
     Or? May that be a part of a big game? Kind of.\s
     """;
     TextParser parser = TextParser.getInstance();

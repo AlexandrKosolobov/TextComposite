@@ -4,4 +4,5 @@ Does it matter what is the 64>>2 content of this file? No!
 Does it matter what is the 123|321 content of this file? No!
 Does it matter what is the 123&321 content of this file? No!
 Does it matter what is the 123^321 content of this file? No!
+Does it matter what is the ~123 content of this file? No!
 Or? May that be a part of a big game? Kind of.

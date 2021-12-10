@@ -1,6 +1,7 @@
 package by.kosolobov.compositetask.parser.impl;
 
 import by.kosolobov.compositetask.entity.Component;
+import by.kosolobov.compositetask.reader.MainReader;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -13,6 +14,7 @@ class TextParserTest {
     Does it matter what is the 123|321 content of this file? No!
     Does it matter what is the 123&321 content of this file? No!
     Does it matter what is the 123^321 content of this file? No!
+    Does it matter what is the ~123 content of this file? No!
     Or? May that be a part of a big game? Kind of.
     """;
 
